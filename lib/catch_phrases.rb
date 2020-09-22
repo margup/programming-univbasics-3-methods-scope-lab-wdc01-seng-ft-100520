@@ -9,6 +9,7 @@ def toadstool
   puts status
 end
 
+<<<<<<< HEAD
 def link
 puts  "It's Dangerous To Go Alone! Take This." 
 end
@@ -16,6 +17,11 @@ end
 def  all_phrases
  
  puts link
+=======
+def  all_phrases
+  link = "It's Dangerous To Go Alone!"
+  puts link
+>>>>>>> c2d9b00019b75671a8ece0f92b0f05538e5210e5
  puts mario
  puts toadstool
 end
